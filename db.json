@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "name": "Pepperoni",
+      "price": 10.99,
+      "image": "https://img.freepik.com/premium-photo/pepperoni-pizza-being-cooked-grill-with-grill-marks_1170794-215268.jpg?w=900"
+    },
+    {
+      "id": "3",
+      "name": "BBQ Chicken",
+      "price": 12.99,
+      "image": "https://www.themediterraneandish.com/wp-content/uploads/2020/07/grilled-whole-chicken-recipe-9.jpg"
+    },
+    {
+      "id": "95dc",
+      "name": "Coca-Cola",
+      "price": 2,
+      "image": "https://www.coca-cola.com/us/en/brands/coca-cola/products/zero"
+    },
+    {
+      "id": "d5c4",
+      "name": "Coca-Cola",
+      "price": 3,
+      "image": "https://www.coca-cola.com/content/dam/onexp/us/en/brands/coca-cola-zero/en_coca-cola_prod_zero%20sugar%20_750x750_v1.jpg/width1960.jpg"
+    }
+  ]
+}

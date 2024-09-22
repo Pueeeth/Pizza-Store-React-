@@ -1,0 +1,70 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-250px); /* Hidden by default */
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Shows when open */
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  left: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #555;
+}
+
+.nav-menu {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu.active {
+  display: block;
+}
+
+.nav-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 20px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #575757;
+}
+
+.nav-menu-items .nav-item {
+  padding-left: 20px;
+}

@@ -1,0 +1,52 @@
+.items-container {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.items-title {
+  font-size: 36px;
+  color: #dc3545;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+}
+
+.items-list-item {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+}
+
+.item-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.items-price {
+  color: #28a745;
+  font-weight: bold;
+}
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-price-rupees {
+  color: #007bff; /* Bootstrap Blue */
+  font-size: 18px;
+}

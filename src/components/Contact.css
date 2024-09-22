@@ -1,0 +1,21 @@
+.contact-container {
+    padding: 40px;
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+    color: #17a2b8; /* Bootstrap teal */
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    font-size: 20px;
+  }

@@ -1,0 +1,35 @@
+.pizza-store-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .pizza-store-title {
+    font-size: 48px;
+    color: #ff6347; /* Tomato color */
+    margin-bottom: 20px;
+  }
+  
+  .pizza-store-description {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .pizza-store-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff; /* Bootstrap Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pizza-store-button:hover {
+    background-color: #0056b3;
+  }

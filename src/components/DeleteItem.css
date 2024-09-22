@@ -1,0 +1,35 @@
+.delete-item-container {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.delete-item-container h1 {
+  font-size: 36px;
+  color: #dc3545; /* Bootstrap red */
+  margin-bottom: 20px;
+}
+
+.delete-item-container h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.delete-item-container p {
+  font-size: 20px;
+  color: #28a745; /* Green */
+}
+
+.delete-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #dc3545; /* Red for delete */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
